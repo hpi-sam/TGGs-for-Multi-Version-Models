@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" uuid="_l_tFwEiFEeyJzOJZPD4H4Q" name="History2History2_History2History_changeAttributeValues">
+  <edges uuid="_l_tFwUiFEeyJzOJZPD4H4Q" source="_l_tFwkiFEeyJzOJZPD4H4Q" target="_l_tFw0iFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_l_tFwkiFEeyJzOJZPD4H4Q" outgoingEdges="_l_tFwUiFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_l_tFw0iFEeyJzOJZPD4H4Q" incomingEdges="_l_tFwUiFEeyJzOJZPD4H4Q">
+    <outputParameterValues uuid="_l_tFxEiFEeyJzOJZPD4H4Q" parameter="_l_tFx0iFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_tFxUiFEeyJzOJZPD4H4Q" expressionString="false" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_l_tFxkiFEeyJzOJZPD4H4Q" name="corr">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+  </parameters>
+  <parameters uuid="_l_tFx0iFEeyJzOJZPD4H4Q" name="__returnValue" direction="OUT">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </parameters>
+</mlsdm:Activity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" uuid="_mAfv8EiFEeyJzOJZPD4H4Q" name="java2classPkg_adapted_pkg_adapted_changeAttributeValues">
+  <edges uuid="_mAfv8UiFEeyJzOJZPD4H4Q" source="_mAfv8kiFEeyJzOJZPD4H4Q" target="_mAfv80iFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_mAfv8kiFEeyJzOJZPD4H4Q" outgoingEdges="_mAfv8UiFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_mAfv80iFEeyJzOJZPD4H4Q" incomingEdges="_mAfv8UiFEeyJzOJZPD4H4Q">
+    <outputParameterValues uuid="_mAfv9EiFEeyJzOJZPD4H4Q" parameter="_mAfv90iFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_mAfv9UiFEeyJzOJZPD4H4Q" expressionString="false" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <parameters uuid="_mAfv9kiFEeyJzOJZPD4H4Q" name="corrPkg_adapted">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//CorrPkg_adapted"/>
+  </parameters>
+  <parameters uuid="_mAfv90iFEeyJzOJZPD4H4Q" name="__returnValue" direction="OUT">
+    <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </parameters>
+</mlsdm:Activity>

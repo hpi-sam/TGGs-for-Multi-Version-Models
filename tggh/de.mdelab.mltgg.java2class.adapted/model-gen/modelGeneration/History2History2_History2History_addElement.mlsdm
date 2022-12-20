@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlsdm:Activity xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mlexpressions="http://www.mdelab.de/mlexpressions/1.0" xmlns:mlsdm="http://www.mdelab.de/mlsdm/1.0" xmlns:mlstorypatterns="http://www.mdelab.de/mlstorypatterns/1.0" uuid="_l_r3oEiFEeyJzOJZPD4H4Q" name="History2History2_History2History_addElement">
+  <edges uuid="_l_r3oUiFEeyJzOJZPD4H4Q" source="_l_r3wkiFEeyJzOJZPD4H4Q" target="_l_r3p0iFEeyJzOJZPD4H4Q" guardType="FAILURE"/>
+  <edges uuid="_l_r3okiFEeyJzOJZPD4H4Q" source="_l_r3u0iFEeyJzOJZPD4H4Q" target="_l_r3wkiFEeyJzOJZPD4H4Q" guardType="SUCCESS"/>
+  <edges uuid="_l_r3o0iFEeyJzOJZPD4H4Q" source="_l_r3u0iFEeyJzOJZPD4H4Q" target="_l_r3rEiFEeyJzOJZPD4H4Q" guardType="FAILURE"/>
+  <edges uuid="_l_r3pEiFEeyJzOJZPD4H4Q" source="_l_r3wkiFEeyJzOJZPD4H4Q" target="_l_r3s0iFEeyJzOJZPD4H4Q" guardType="SUCCESS"/>
+  <edges uuid="_l_r3pUiFEeyJzOJZPD4H4Q" source="_l_r3ukiFEeyJzOJZPD4H4Q" target="_l_r3u0iFEeyJzOJZPD4H4Q"/>
+  <edges uuid="_l_r3pkiFEeyJzOJZPD4H4Q" source="_l_r3p0iFEeyJzOJZPD4H4Q" target="_l_r3rEiFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_l_r3p0iFEeyJzOJZPD4H4Q" outgoingEdges="_l_r3pkiFEeyJzOJZPD4H4Q" incomingEdges="_l_r3oUiFEeyJzOJZPD4H4Q" name="delete elements">
+    <storyPattern uuid="_l_r3qEiFEeyJzOJZPD4H4Q" name="delete elements">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3qUiFEeyJzOJZPD4H4Q" modifier="DESTROY" name="left" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3qkiFEeyJzOJZPD4H4Q" modifier="DESTROY" name="right" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3q0iFEeyJzOJZPD4H4Q" modifier="DESTROY" name="corr" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_l_r3rEiFEeyJzOJZPD4H4Q" incomingEdges="_l_r3o0iFEeyJzOJZPD4H4Q _l_r3pkiFEeyJzOJZPD4H4Q">
+    <outputParameterValues uuid="_l_r3rUiFEeyJzOJZPD4H4Q" parameter="_l_r3xkiFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3rkiFEeyJzOJZPD4H4Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_l_r3r0iFEeyJzOJZPD4H4Q" parameter="_l_r3x0iFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3sEiFEeyJzOJZPD4H4Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_l_r3sUiFEeyJzOJZPD4H4Q" parameter="_l_r3yEiFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3skiFEeyJzOJZPD4H4Q" expressionString="null" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:ActivityFinalNode" uuid="_l_r3s0iFEeyJzOJZPD4H4Q" incomingEdges="_l_r3pEiFEeyJzOJZPD4H4Q">
+    <outputParameterValues uuid="_l_r3tEiFEeyJzOJZPD4H4Q" parameter="_l_r3xkiFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3tUiFEeyJzOJZPD4H4Q" expressionString="corr" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_l_r3tkiFEeyJzOJZPD4H4Q" parameter="_l_r3x0iFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3t0iFEeyJzOJZPD4H4Q" expressionString="left" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+    <outputParameterValues uuid="_l_r3uEiFEeyJzOJZPD4H4Q" parameter="_l_r3yEiFEeyJzOJZPD4H4Q">
+      <expression xsi:type="mlexpressions:MLStringExpression" uuid="_l_r3uUiFEeyJzOJZPD4H4Q" expressionString="right" expressionLanguageID="OCL"/>
+    </outputParameterValues>
+  </nodes>
+  <nodes xsi:type="mlsdm:InitialNode" uuid="_l_r3ukiFEeyJzOJZPD4H4Q" outgoingEdges="_l_r3pUiFEeyJzOJZPD4H4Q"/>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_l_r3u0iFEeyJzOJZPD4H4Q" outgoingEdges="_l_r3okiFEeyJzOJZPD4H4Q _l_r3o0iFEeyJzOJZPD4H4Q" incomingEdges="_l_r3pUiFEeyJzOJZPD4H4Q" name="create elements">
+    <storyPattern uuid="_l_r3vEiFEeyJzOJZPD4H4Q" name="create elements">
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_l_r3vUiFEeyJzOJZPD4H4Q" modifier="CREATE" source="_l_r3wUiFEeyJzOJZPD4H4Q" target="_l_r3v0iFEeyJzOJZPD4H4Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/leftNodes"/>
+      </storyPatternLinks>
+      <storyPatternLinks xsi:type="mlstorypatterns:StoryPatternLink" uuid="_l_r3vkiFEeyJzOJZPD4H4Q" modifier="CREATE" source="_l_r3wUiFEeyJzOJZPD4H4Q" target="_l_r3wEiFEeyJzOJZPD4H4Q">
+        <feature xsi:type="ecore:EReference" href="http://www.mdelab.de/mltgg/mote2/1.0#//TGGNode/rightNodes"/>
+      </storyPatternLinks>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3v0iFEeyJzOJZPD4H4Q" modifier="CREATE" name="left" incomingLinks="_l_r3vUiFEeyJzOJZPD4H4Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3wEiFEeyJzOJZPD4H4Q" modifier="CREATE" name="right" incomingLinks="_l_r3vkiFEeyJzOJZPD4H4Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3wUiFEeyJzOJZPD4H4Q" modifier="CREATE" name="corr" outgoingLinks="_l_r3vkiFEeyJzOJZPD4H4Q _l_r3vUiFEeyJzOJZPD4H4Q">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <nodes xsi:type="mlsdm:StoryNode" uuid="_l_r3wkiFEeyJzOJZPD4H4Q" outgoingEdges="_l_r3pEiFEeyJzOJZPD4H4Q _l_r3oUiFEeyJzOJZPD4H4Q" incomingEdges="_l_r3okiFEeyJzOJZPD4H4Q" name="check attribute formulae">
+    <storyPattern uuid="_l_r3w0iFEeyJzOJZPD4H4Q" name="check attribute formulae">
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3xEiFEeyJzOJZPD4H4Q" name="left" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+      <storyPatternObjects xsi:type="mlstorypatterns:StoryPatternObject" uuid="_l_r3xUiFEeyJzOJZPD4H4Q" name="right" bindingType="BOUND">
+        <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+      </storyPatternObjects>
+    </storyPattern>
+  </nodes>
+  <parameters uuid="_l_r3xkiFEeyJzOJZPD4H4Q" name="corr" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/mltgg/java2class/adapted/1.0#//History2History"/>
+  </parameters>
+  <parameters uuid="_l_r3x0iFEeyJzOJZPD4H4Q" name="left" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+  </parameters>
+  <parameters uuid="_l_r3yEiFEeyJzOJZPD4H4Q" name="right" direction="OUT">
+    <type xsi:type="ecore:EClass" href="http://www.mdelab.de/migmm/history/1.0#//History"/>
+  </parameters>
+</mlsdm:Activity>
